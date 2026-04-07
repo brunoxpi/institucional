@@ -1,6 +1,10 @@
 {
-  "name": "orquestrador-landing",
+  "name": "anova-institucional",
   "version": "1.0.0",
-  "description": "Landing page do Orquestrador — Anova Investimentos",
-  "private": true
+  "description": "Site institucional da Anova — Sistema operacional conversacional para distribuição financeira",
+  "private": true,
+  "scripts": {
+    "start": "npx serve public",
+    "build": "echo 'Static site — no build step'"
+  }
 }
